@@ -69,12 +69,6 @@
     <Content Include="fonts\Overpass_Regular-webfont.ttf" />
     <Content Include="fonts\Overpass_Regular-webfont.woff" />
     <Content Include="packages.config" />
-    <None Include="Web.Debug.config0">
-      <DependentUpon>Web.config0</DependentUpon>
-    </None>
-    <None Include="Web.Release.config0">
-      <DependentUpon>Web.config0</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.html" />
@@ -82,7 +76,6 @@
     <Content Include="style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
-    <None Include="Web.config0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

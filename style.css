@@ -6,15 +6,15 @@
   font-style: normal; }
 
 body {
-  background-color: #353C42;
   background-color: #F4F4F4;
-  color: #eee;
+  background-color: #353C42;
   color: #353c42;
+  color: #eee;
   font-size: 1.5rem;
   font-family: 'overpassregular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .fun {
-  color: #a11d1d;
+  color: #E09721;
   margin-top: 1.5rem;
   font-size: 90%; }
 
@@ -22,9 +22,8 @@ a, a:hover {
   color: #fff; }
 
 .glance-box {
-  background-color: #f2f2f2;
   background-color: #40484f;
-  border: 2px solid #333;
+  border: 1px solid #757575;
   border-radius: 10px;
   margin: 1rem 1rem 0.5rem;
   padding: 10px 0px;
@@ -32,13 +31,13 @@ a, a:hover {
   .glance-box h2 {
     margin-top: 10px;
     padding-left: 2.2rem;
-    color: #846687;
     color: #E09721; }
   .glance-box li {
     margin-top: 0.7rem;
     font-size: 1.5rem;
     line-height: 1.8;
-    padding-left: 2.1rem; }
+    padding-left: 2.1rem;
+    padding-right: 1rem; }
     .glance-box li i {
       font-style: normal;
       text-decoration: underline; }
@@ -66,14 +65,13 @@ h1 {
   font-size: 8rem;
   font-size: 2rem;
   margin-top: 0;
-  height: 7rem;
   padding-left: 2rem;
-  padding-top: 3.5rem;
+  padding-top: 0.7em;
   font-weight: bold;
   color: #C186C9;
   color: white;
   text-align: left;
-  background-color: #846687;
+  background-color: #913F61;
   padding-bottom: 1rem;
   margin-bottom: 3rem; }
   h1 span {
@@ -89,8 +87,8 @@ h1 {
   /*font-weight:bold;*/
   /*background-color:#c78926;*/
   font-size: 3.5rem;
-  color: #135D82;
   color: #353C42;
+  color: #eee;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .tagline2 {
@@ -99,18 +97,19 @@ h1 {
 .demoBtn {
   display: block;
   margin: 0 10%;
-  margin-top: 1rem;
-  background-color: #846687;
-  background-color: #a11d1d;
+  margin-top: 2rem;
+  background-color: #842424;
   border: 2px solid #333;
-  border-radius: 8px;
+  border-radius: 15px;
   font-size: 3.75rem;
   padding: 2rem;
   text-shadow: -1px 1px #6b566d; }
 
+.btn .focus, .btn:focus, .btn:hover {
+  color: white; }
+
 .demoBtn:hover {
-  background-color: #C186C9;
-  background-color: #a11d1d;
+  background-color: #d53434;
   color: white; }
 
 .coming-soon {
@@ -121,8 +120,32 @@ h1 {
 
 footer {
   font-size: 1.2rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
   text-align: center;
   width: 100%; }
+
+form {
+  background-color: #2C2E30;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  padding: 2rem;
+  font-size: 14px; }
+  form h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #E09721;
+    line-height: 1.5; }
+  form .asterisk {
+    color: #ea0000;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2rem; }
+  form .mce_inline_error {
+    background-color: #e0b7b7; }
 
 /*# sourceMappingURL=style.css.map */
