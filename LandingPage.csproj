@@ -57,23 +57,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\bubeat.svg" />
     <Content Include="style.scss" />
     <Content Include="style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
-    <Content Include="fonts\Overpass_Regular-webfont.eot" />
-    <Content Include="fonts\Overpass_Regular-webfont.ttf" />
-    <Content Include="fonts\Overpass_Regular-webfont.woff" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.html" />
-    <Content Include="fonts\Overpass_Regular-webfont.svg" />
     <Content Include="style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\bubeat.eot" />
+    <Content Include="fonts\bubeat.ttf" />
+    <Content Include="fonts\bubeat.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

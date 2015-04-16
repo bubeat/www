@@ -11,6 +11,52 @@ body {
     font-family:'Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@font-face {
+	font-family: 'bubeat';
+	src:url('fonts/bubeat.eot?-2us3vi');
+	src:url('fonts/bubeat.eot?#iefix-2us3vi') format('embedded-opentype'),
+		url('fonts/bubeat.woff?-2us3vi') format('woff'),
+		url('fonts/bubeat.ttf?-2us3vi') format('truetype'),
+		url('fonts/bubeat.svg?-2us3vi#bubeat') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+
+
+.bu {
+	font-family: 'bubeat';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.bu-textlogo:before {
+	content: "\e601";
+    font-size:2.7rem;
+    position:relative;
+    top:-.5rem;
+}
+
+@media(max-width:768px)
+{
+.bu-textlogo:before {
+    top:0;
+}
+}
+
+.bu-logo:before {
+	content: "\e600";
+    font-size:2.7rem;
+} 
+
+
 .fun{
     color:#E09721;
     margin-top:1.5rem;
@@ -90,7 +136,7 @@ header{
     .mobile-title{
         font-size:1.75rem;
     margin-top:0;
-    padding-left:2rem;
+    /*padding-left:2rem;*/
     font-weight:bold;
     
    text-align:left;
@@ -106,7 +152,9 @@ header{
     text-decoration:underline;
     background-color: $bgColor;
 }
-
+.navbar-nav > li > a {
+    padding-bottom:0;
+}
 .title{
    font-size:2rem;
     margin-top:0;
