@@ -58,13 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\bubeat.svg" />
+    <Content Include="index.html" />
     <Content Include="style.scss" />
     <Content Include="style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.html" />
     <Content Include="style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
