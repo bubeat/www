@@ -2,4 +2,6 @@ name: SapiensWorks
 
 description: Maintainable code is a business advantage
 
-url: 
+url: http://bubeat.github.io/www
+
+baseurl: "/www"
