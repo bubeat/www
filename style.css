@@ -1,9 +1,6 @@
 ﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400|Roboto);
 @import url(flaticon.css);
 @import url(font-mfizz.css);
-.ggg {
-  vertical-align: auto; }
-
 body {
   color: #555;
   margin: 10px;
@@ -11,10 +8,18 @@ body {
   font-size: 1.5em;
   font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
+.blog {
+  text-align: right;
+  margin-right: 2rem; }
+  .blog .btn-primary, .blog a:hover {
+    background-color: #fff;
+    color: #68a41c;
+    border: 1px solid #68a41c; }
+
 .logo {
   margin-bottom: 3rem;
   padding: 10px 0;
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: center; }
 
 header {
@@ -128,10 +133,18 @@ footer {
     padding: 0px 30px;
     font-size: 1.7rem;
     line-height: 1.5; }
+  @media (max-width: 640px) {
+    .faq p {
+      padding: 0 15px; }
+ }
   .faq .what-is {
     margin-bottom: 70px; }
     .faq .what-is p {
       width: 80%; }
+    @media (max-width: 640px) {
+      .faq .what-is p {
+        width: 100%; }
+ }
     .faq .what-is h2 {
       color: #555; }
 
